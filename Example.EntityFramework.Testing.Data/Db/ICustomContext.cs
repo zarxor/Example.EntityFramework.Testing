@@ -3,11 +3,13 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 // -------------------------------------------------------------------------------------------------
 
-namespace EfMocking.Data.Db
+namespace Example.EntityFramework.Testing.Data.Db
 {
-    public class CustomEntity
+    using Abstract;
+    using Microsoft.EntityFrameworkCore;
+
+    public interface ICustomContext : IDbContext
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        DbSet<CustomEntity> CustomEntities { get; set; }
     }
 }

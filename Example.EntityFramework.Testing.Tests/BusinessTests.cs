@@ -3,7 +3,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 // -------------------------------------------------------------------------------------------------
 
-namespace EfMocking.Tests
+namespace Example.EntityFramework.Testing.Tests
 {
     using System.Threading;
     using System.Threading.Tasks;

@@ -3,7 +3,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 // -------------------------------------------------------------------------------------------------
 
-namespace EfMocking.Data.Abstract
+namespace Example.EntityFramework.Testing.Data.Abstract
 {
     using System;
     using System.Collections.Generic;
